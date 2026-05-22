@@ -7,6 +7,14 @@
     </linearGradient>
   </defs>
 
+  <style>
+    .wordmark { fill: #1A1A2E; }
+    .tagline { fill: #00A884; }
+    @media (prefers-color-scheme: dark) {
+      .wordmark { fill: #FFFFFF; }
+    }
+  </style>
+
   <!-- Background circle -->
   <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#g)"/>
 
@@ -20,6 +28,6 @@
   <circle cx="24" cy="24" r="2.5" fill="white" opacity="0.5"/>
 
   <!-- Wordmark -->
-  <text x="58" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1A1A2E" letter-spacing="-0.5">Wasla</text>
-  <text x="58" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#00A884" letter-spacing="1.5" opacity="0.8">وصل أعمالك</text>
+  <text x="58" y="30" class="wordmark" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.5">Wasla</text>
+  <text x="58" y="42" class="tagline" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" opacity="0.8">وصل أعمالك</text>
 </svg>
