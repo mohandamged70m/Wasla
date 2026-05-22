@@ -5,12 +5,12 @@ import { createContext, useContext, useState, useEffect, ReactNode } from "react
 export type Lang = "ar" | "en";
 
 const titles: Record<Lang, string> = {
-  ar: "Wasla | نظام إدارة مواعيد ومرضى العيادات على الواتساب",
+  ar: "وصلة | نظام إدارة مواعيد ومرضى العيادات على الواتساب",
   en: "Wasla | Clinic Appointment & Patient Management on WhatsApp",
 };
 
 const descriptions: Record<Lang, string> = {
-  ar: "Wasla هو مركز عمليات واتساب لعيادتك. صندوق وارد موحد، حجوزات مواعيد، تذكير تلقائي للمرضى، وفريق كامل يدير المحادثات من شاشة واحدة.",
+  ar: "وصلة هو مركز عمليات واتساب لعيادتك. صندوق وارد موحد، حجوزات مواعيد، تذكير تلقائي للمرضى، وفريق كامل يدير المحادثات من شاشة واحدة.",
   en: "Wasla is a WhatsApp operations center for your clinic. Unified inbox, appointment booking, automatic patient reminders, and a full team managing conversations from one screen.",
 };
 
