@@ -111,7 +111,6 @@ export default function Home() {
 
           <div className="relative max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-1.5 bg-warning/20 rounded-full px-4 py-1.5 mb-8">
-              <span className="text-lg leading-none">💡</span>
               <span className="text-ink-deep text-xs font-bold">{t.hero.badge}</span>
             </div>
 
