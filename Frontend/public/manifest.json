@@ -1,0 +1,22 @@
+{
+  "name": "Wasla",
+  "short_name": "Wasla",
+  "description": "نظام إدارة مواعيد ومرضى العيادات على الواتساب",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a1317",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/wasla-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["medical", "productivity", "business"],
+  "prefer_related_applications": false
+}

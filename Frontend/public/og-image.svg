@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg-glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2a32"/>
+      <stop offset="50%" stop-color="#0a1317"/>
+      <stop offset="100%" stop-color="#0f1a1f"/>
+    </linearGradient>
+    <linearGradient id="icon-grad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00A884"/>
+      <stop offset="100%" stop-color="#1DA1F2"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00A884"/>
+      <stop offset="50%" stop-color="#1DA1F2"/>
+      <stop offset="100%" stop-color="#00A884" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00A884" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#00A884" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow-2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1DA1F2" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#1DA1F2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-glow)"/>
+
+  <!-- Decorative glow blobs -->
+  <circle cx="150" cy="100" r="320" fill="url(#glow-1)"/>
+  <circle cx="1050" cy="530" r="280" fill="url(#glow-2)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03">
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="white" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="630" stroke="white" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="white" stroke-width="0.5"/>
+    <line x1="900" y1="0" x2="900" y2="630" stroke="white" stroke-width="0.5"/>
+  </g>
+
+  <!-- Content card -->
+  <rect x="80" y="70" width="1040" height="490" rx="32" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Left: Logo area -->
+  <rect x="150" y="195" width="100" height="100" rx="20" fill="url(#icon-grad)"/>
+  <circle cx="185" cy="230" r="11" fill="white" opacity="0.95"/>
+  <circle cx="215" cy="260" r="11" fill="white" opacity="0.95"/>
+  <line x1="192" y1="238" x2="210" y2="252" stroke="white" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="200" cy="245" r="5.5" fill="white" opacity="0.5"/>
+
+  <!-- Brand name -->
+  <text x="275" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="white" letter-spacing="-0.5">Wasla</text>
+  <text x="275" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#00A884" letter-spacing="3">CLINIC OS</text>
+
+  <!-- Tagline divider -->
+  <rect x="150" y="325" width="320" height="2" fill="url(#accent-line)" rx="1"/>
+
+  <!-- Arabic tagline -->
+  <text x="150" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="600" fill="white" direction="rtl" text-anchor="start">نظام متكامل لإدارة مواعيد</text>
+  <text x="150" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="600" fill="white" direction="rtl" text-anchor="start">ومرضى عيادتك على الواتساب</text>
+
+  <!-- English subtitle -->
+  <text x="150" y="455" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#8595a4">Unified inbox · Appointment booking · Auto reminders · Team inbox</text>
+
+  <!-- Right side: decorative stats cards -->
+  <g transform="translate(680, 155)">
+    <rect x="0" y="0" width="200" height="90" rx="16" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.06" stroke-width="1"/>
+    <text x="20" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#00A884">+40%</text>
+    <text x="20" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#8595a4">حضور المواعيد</text>
+    <text x="20" y="74" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#5d6c7b">Appointment show-up rate</text>
+  </g>
+
+  <g transform="translate(680, 265)">
+    <rect x="0" y="0" width="200" height="90" rx="16" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.06" stroke-width="1"/>
+    <text x="20" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1DA1F2">100%</text>
+    <text x="20" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#8595a4">على واتساب بزنِس</text>
+    <text x="20" y="74" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#5d6c7b">WhatsApp Business native</text>
+  </g>
+
+  <g transform="translate(680, 375)">
+    <rect x="0" y="0" width="200" height="90" rx="16" fill="white" fill-opacity="0.04" stroke="white" stroke-opacity="0.06" stroke-width="1"/>
+    <text x="20" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#00A884">٧ أيام</text>
+    <text x="20" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#8595a4">تجربة مجانية</text>
+    <text x="20" y="74" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#5d6c7b">Free trial · No credit card</text>
+  </g>
+
+  <!-- Bottom feature pills -->
+  <g transform="translate(150, 495)">
+    <rect x="0" y="0" width="140" height="32" rx="16" fill="#00A884" fill-opacity="0.12"/>
+    <text x="70" y="21" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#00A884" text-anchor="middle">صندوق وارد موحد</text>
+  </g>
+  <g transform="translate(306, 495)">
+    <rect x="0" y="0" width="140" height="32" rx="16" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+    <text x="70" y="21" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#ced0d4" text-anchor="middle">حجوزات مواعيد</text>
+  </g>
+  <g transform="translate(462, 495)">
+    <rect x="0" y="0" width="140" height="32" rx="16" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+    <text x="70" y="21" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#ced0d4" text-anchor="middle">تذكير تلقائي</text>
+  </g>
+
+  <!-- URL bar at bottom -->
+  <rect x="85" y="530" width="1030" height="25" rx="4" fill="white" fill-opacity="0.04"/>
+  <circle cx="105" cy="542.5" r="3" fill="#31a24c"/>
+  <text x="120" y="546" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#8595a4">wasla.app</text>
+</svg>
