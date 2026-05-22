@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Tajawal, Montserrat } from "next/font/google";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 import "./globals.css";
 
 const tajawal = Tajawal({
@@ -34,7 +35,9 @@ export default function RootLayout({
       dir="rtl"
       className={`${tajawal.variable} ${montserrat.variable}`}
     >
-      <body className="min-h-screen font-sans antialiased">{children}</body>
+      <body className="min-h-screen font-sans antialiased">
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   );
 }
